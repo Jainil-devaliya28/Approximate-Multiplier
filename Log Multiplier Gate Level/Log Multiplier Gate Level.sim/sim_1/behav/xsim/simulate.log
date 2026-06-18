@@ -1,0 +1,12 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Starting testbench for Shifter_gate...
+I = 0001, k =  0 -> O = 00000001
+I = 0001, k =  1 -> O = 00000002
+I = 000f, k =  4 -> O = 000000f0
+I = 00ff, k =  8 -> O = 0000ff00
+I = 0001, k = 15 -> O = 00008000
+I = a5a5, k =  3 -> O = 00052d28
+I = ffff, k =  5 -> O = 001fffe0
+Testbench completed.
+$stop called at time : 70 ns : File "C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sim_1/new/shift_tb.v" Line 78

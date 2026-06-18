@@ -1,0 +1,14 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/glbl.v,1750350233,verilog,,,,glbl,,,,,,,,
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v,1750350233,verilog,,,,Log_multiplier_tb,,,,,,,,
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v,1750413993,verilog,,C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v,,Adder,,,,,,,,
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v,1750363583,verilog,,C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v,,Log_Multiplier,,,,,,,,
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v,1750350233,verilog,,C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v,,Mux_for_priority_encoder,,,,,,,,
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v,1750415389,verilog,,C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v,,Mux_result_production,,,,,,,,
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v,1750350233,verilog,,C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v,,Shifter,,,,,,,,
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v,1750414704,verilog,,C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v,,Shifter_result_production,,,,,,,,
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v,1750350233,verilog,,C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v,,priority_encoder_1,,,,,,,,
+C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v,1750350233,verilog,,C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v,,priority_encoder_valid,,,,,,,,

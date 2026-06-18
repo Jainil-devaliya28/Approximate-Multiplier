@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Log Multiplier Gate Level.srcs/sources_1/new/Priority_Encoder.v" \
+"../../../../Log Multiplier Gate Level.srcs/sources_1/new/Priority_Encoder_Final.v" \
+"../../../../Log Multiplier Gate Level.srcs/sources_1/new/Priority_Encoder_V.v" \
+"../../../../Log Multiplier Gate Level.srcs/sources_1/new/mux.v" \
+"../../../../Log Multiplier Gate Level.srcs/sim_1/new/Priority_Encoder_final_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

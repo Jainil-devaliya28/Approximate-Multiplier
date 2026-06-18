@@ -1,0 +1,553 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jun 19 21:54:02 2025
+# Process ID: 16996
+# Current directory: C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18744 C:\Users\LABAdmin\Downloads\Log_Mulitplier\Log_Mulitplier\Log_Mulitplier\Log_Mulitplier.xpr
+# Log file: C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/vivado.log
+# Journal file: C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store', nor could it be found using path 'C:/Users/Dell/Downloads/Log_Mulitplier/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1069.238 ; gain = 354.363
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Log_multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Log_multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Log_Multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_for_priority_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_result_production
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter_result_production
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder_valid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Log_multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xelab -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'O_product' on this module [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v:31]
+ERROR: [VRFC 10-3180] cannot find port 'B' on this module [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v:30]
+ERROR: [VRFC 10-3180] cannot find port 'A' on this module [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v:29]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1087.715 ; gain = 4.059
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Log_multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Log_multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Log_Multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_for_priority_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_result_production
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter_result_production
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder_valid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Log_multiplier_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xelab -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'B' on this module [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v:30]
+ERROR: [VRFC 10-3180] cannot find port 'A' on this module [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v:29]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1103.285 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Log_multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Log_multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Log_Multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_for_priority_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_result_production
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter_result_production
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder_valid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Log_multiplier_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xelab -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'clk' is not connected on this instance [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v:28]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'O_product' is not permitted [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v:56]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Log_multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Log_multiplier_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xelab -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'clk' is not connected on this instance [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v:28]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'O_product' is not permitted [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v:56]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1103.285 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Log_multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Log_multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Log_Multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_for_priority_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_result_production
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter_result_production
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder_valid
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Log_multiplier_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+"xelab -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 7ef8a29d3bcd4d188a052ae5989056c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Log_multiplier_tb_behav xil_defaultlib.Log_multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'clk' is not connected on this instance [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v:28]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.priority_encoder_1
+Compiling module xil_defaultlib.priority_encoder_valid
+Compiling module xil_defaultlib.Mux_for_priority_encoder
+Compiling module xil_defaultlib.Shifter
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.Mux_result_production
+Compiling module xil_defaultlib.Shifter_result_production
+Compiling module xil_defaultlib.Log_Multiplier
+Compiling module xil_defaultlib.Log_multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Log_multiplier_tb_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/xsim.dir/Log_multiplier_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 19 22:11:15 2025...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1103.285 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Log_multiplier_tb_behav -key {Behavioral:sim_1:Functional:Log_multiplier_tb} -tclbatch {Log_multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source Log_multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Log_multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 1125.336 ; gain = 22.051
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Log_Multiplier
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1610.734 ; gain = 231.703
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Log_Multiplier' [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v:21]
+INFO: [Synth 8-6157] synthesizing module 'priority_encoder_1' [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'priority_encoder_1' (1#1) [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v:24]
+INFO: [Synth 8-6157] synthesizing module 'priority_encoder_valid' [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'priority_encoder_valid' (2#1) [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux_for_priority_encoder' [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_for_priority_encoder' (3#1) [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Shifter' [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Shifter' (4#1) [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (5#1) [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux_result_production' [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_result_production' (6#1) [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Shifter_result_production' [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Shifter_result_production' (7#1) [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Log_Multiplier' (8#1) [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v:21]
+WARNING: [Synth 8-3331] design Log_Multiplier has unconnected port clk
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1660.488 ; gain = 281.457
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1660.488 ; gain = 281.457
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1660.488 ; gain = 281.457
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1660.488 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc]
+WARNING: [Vivado 12-584] No ports matched 'I[15]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[14]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[13]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[12]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[11]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[10]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[9]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[8]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[7]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[6]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[5]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[4]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[3]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[2]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[1]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[0]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[15]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[14]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[13]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[12]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[11]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[10]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[9]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[8]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[7]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[6]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[5]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[4]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[3]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[2]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[1]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[0]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'select_input'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'select_output'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[15]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[14]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[13]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[12]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[11]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[10]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[9]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[8]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[7]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[6]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[5]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[4]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[3]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[2]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[1]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[0]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[15]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[14]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[13]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[12]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[11]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[10]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[9]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[8]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[7]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[6]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[5]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[4]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[3]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[2]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[1]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[0]'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'select_output'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'select_input'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'clk_IBUF'. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/LABAdmin/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1743.273 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1839.645 ; gain = 460.613
+20 Infos, 70 Warnings, 69 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1839.645 ; gain = 675.695
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 20 01:36:28 2025...

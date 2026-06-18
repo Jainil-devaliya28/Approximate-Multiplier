@@ -1,0 +1,19 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sim_1/new/Priority_Encoder_NV_tb.v,1750353115,verilog,,,,Priority_Encoder_NV_tb,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sim_1/new/Priority_Encoder_V_tb.v,1750365527,verilog,,,,Priority_Encoder_V_tb,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sim_1/new/Priority_Encoder_final_tb.v,1750367808,verilog,,,,Priority_Encoder_final_tb,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sim_1/new/mux_tb.v,1750411412,verilog,,,,mux_tb,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sim_1/new/shift_tb.v,1750672109,verilog,,,,shift_tb,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sim_1/new/shifter_tb.v,1750417758,verilog,,,,shifter_tb,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/Priority_Encoder.v,1750366145,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/Priority_Encoder_Final.v,,Priority_Encoder_NV,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/Priority_Encoder_Final.v,1750415334,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/Priority_Encoder_V.v,,Priority_Encoder_Final,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/Priority_Encoder_V.v,1750365420,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/mux.v,,Priority_Encoder_V,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/Shift.v,1750672144,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sim_1/new/shift_tb.v,,Shift,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/Shifter.v,1750503186,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sim_1/new/shifter_tb.v,,Shifter,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/adder.v,1750501335,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/adder_tb.v,,adder;full_adder,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/adder_tb.v,1750501335,verilog,,,,adder_tb,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/mux.v,1750414707,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log Multiplier Gate Level/Log Multiplier Gate Level.srcs/sources_1/new/mux.v,,mux,,,,,,,,

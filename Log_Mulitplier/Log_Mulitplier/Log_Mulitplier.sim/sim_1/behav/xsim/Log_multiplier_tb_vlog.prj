@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Log_Mulitplier.srcs/sources_1/new/Adder.v" \
+"../../../../Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v" \
+"../../../../Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v" \
+"../../../../Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v" \
+"../../../../Log_Mulitplier.srcs/sources_1/new/Shifter.v" \
+"../../../../Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v" \
+"../../../../Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v" \
+"../../../../Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v" \
+"../../../../Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

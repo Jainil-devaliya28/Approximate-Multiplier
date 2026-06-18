@@ -1,0 +1,543 @@
+
+*** Running vivado
+    with args -log Log_Multiplier.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Log_Multiplier.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Log_Multiplier.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 422.828 ; gain = 134.133
+Command: synth_design -top Log_Multiplier -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20124 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 965.797 ; gain = 235.262
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Log_Multiplier' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v:21]
+INFO: [Synth 8-6157] synthesizing module 'priority_encoder_1' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'priority_encoder_1' (1#1) [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v:24]
+INFO: [Synth 8-6157] synthesizing module 'priority_encoder_valid' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'priority_encoder_valid' (2#1) [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux_for_priority_encoder' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_for_priority_encoder' (3#1) [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Shifter' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Shifter' (4#1) [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (5#1) [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux_result_production' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_result_production' (6#1) [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Shifter_result_production' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Shifter_result_production' (7#1) [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Log_Multiplier' (8#1) [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1038.469 ; gain = 307.934
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1038.469 ; gain = 307.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1038.469 ; gain = 307.934
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1038.469 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc]
+WARNING: [Vivado 12-584] No ports matched 'I[15]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[14]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[13]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[12]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[11]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[10]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[9]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[8]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[7]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[6]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[5]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[4]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[3]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[2]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[1]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[0]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[15]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[14]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[13]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[12]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[11]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[10]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[9]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[8]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[7]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[6]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[5]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[4]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[3]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[2]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[1]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[0]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'select_input'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'select_output'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[15]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[14]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[13]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[12]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[11]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[10]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[9]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[8]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[7]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[6]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[5]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[4]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[3]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[2]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[1]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I[0]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[15]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[14]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[13]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[12]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[11]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[10]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[9]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[8]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[7]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[6]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[5]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[4]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[3]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[2]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[1]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'O[0]'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'select_output'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'select_input'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'clk_IBUF'. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/constrs_1/new/log_multiplier.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1100.355 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1105.488 ; gain = 5.133
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1105.488 ; gain = 374.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1105.488 ; gain = 374.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1105.488 ; gain = 374.953
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'O_reg' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v:31]
+WARNING: [Synth 8-327] inferring latch for variable 'O_reg' [C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v:32]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1105.488 ; gain = 374.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 5     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module priority_encoder_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input      3 Bit        Muxes := 1     
+Module priority_encoder_valid 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input      3 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+Module Mux_for_priority_encoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module Adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+Module Mux_result_production 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 4     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module Shifter_result_production 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (m/O_reg[4]) is unused and will be removed from module Log_Multiplier.
+WARNING: [Synth 8-3332] Sequential element (m/O_reg[3]) is unused and will be removed from module Log_Multiplier.
+WARNING: [Synth 8-3332] Sequential element (m/O_reg[2]) is unused and will be removed from module Log_Multiplier.
+WARNING: [Synth 8-3332] Sequential element (m/O_reg[1]) is unused and will be removed from module Log_Multiplier.
+WARNING: [Synth 8-3332] Sequential element (m/O_reg[0]) is unused and will be removed from module Log_Multiplier.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1105.488 ; gain = 374.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 1122.328 ; gain = 391.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 1122.402 ; gain = 391.867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 1153.199 ; gain = 422.664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1167.965 ; gain = 437.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1167.965 ; gain = 437.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1167.965 ; gain = 437.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1167.965 ; gain = 437.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1167.965 ; gain = 437.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1167.965 ; gain = 437.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |     8|
+|3     |LUT2   |    22|
+|4     |LUT3   |    44|
+|5     |LUT4   |    67|
+|6     |LUT5   |    45|
+|7     |LUT6   |   143|
+|8     |LD     |     6|
+|9     |IBUF   |    32|
+|10    |OBUF   |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------------------------+------+
+|      |Instance |Module                   |Cells |
++------+---------+-------------------------+------+
+|1     |top      |                         |   401|
+|2     |  a_v    |priority_encoder_valid   |   163|
+|3     |  b_v    |priority_encoder_valid_0 |   150|
+|4     |  o      |Adder                    |    22|
++------+---------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1167.965 ; gain = 437.430
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:53 . Memory (MB): peak = 1167.965 ; gain = 370.410
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 1167.965 ; gain = 437.430
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1173.438 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1173.438 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  LD => LDCE: 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 79 Warnings, 71 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 1173.438 ; gain = 750.348
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1173.438 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.runs/synth_1/Log_Multiplier.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Log_Multiplier_utilization_synth.rpt -pb Log_Multiplier_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 23 17:54:06 2025...

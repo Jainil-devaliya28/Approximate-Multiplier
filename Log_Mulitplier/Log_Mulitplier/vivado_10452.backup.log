@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Apr 20 02:17:21 2025
+# Process ID: 10452
+# Current directory: C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14772 C:\Users\Dell\Downloads\Log_Mulitplier\Log_Mulitplier\Log_Mulitplier.xpr
+# Log file: C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/vivado.log
+# Journal file: C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Dell/Downloads/Log_Mulitplier/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:23 . Memory (MB): peak = 999.562 ; gain = 351.004
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 20 13:16:19 2025...

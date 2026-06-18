@@ -1,0 +1,16 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.sim/sim_1/behav/xsim/glbl.v,1741535308,verilog,,,,glbl,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v,1741535318,verilog,,,,Log_multiplier_tb,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Adder.v,1741535318,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v,,Adder,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Log_Multiplier.v,1750684807,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v,,Log_Multiplier,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_for_priority_encoder.v,1741535319,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v,,Mux_for_priority_encoder,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Mux_result_production.v,1741535320,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shift_result_production_new.v,,Mux_result_production,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shift_result_production_new.v,1750687868,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v,,Shift_result_production_new,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter.v,1741535321,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v,,Shifter,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/Shifter_result_production.v,1750684181,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/mux_result_production_new.v,,Shifter_result_production,,,,,,,,
+,,,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v,,mux_result_production_new,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_1.v,1741535320,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v,,priority_encoder_1,,,,,,,,
+C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sources_1/new/priority_encoder_2.v,1741535320,verilog,,C:/Users/Dell/Downloads/Log_Mulitplier/Log_Mulitplier/Log_Mulitplier.srcs/sim_1/new/Log_multiplier_tb.v,,priority_encoder_valid,,,,,,,,
